@@ -1,0 +1,41 @@
+body {
+    background-image: url("imagenes/ahiva.jpg");
+}
+#wrapper {
+    width: 80%;
+    height: 600px;
+    overflow:auto;
+    margin:auto;
+    padding: 2vw;
+    border: 1px solid black;
+    background-color:rgb(138, 100, 65);
+}
+h1 {
+    text-align: center;
+    color: rgba(65, 47, 15, 0.486);
+}
+ul {
+    list-style-image: url();
+}
+h2 {
+color: rgba(27, 21, 9, 0.849);
+border-left: blue;
+border-bottom: chartreuse;
+padding: 5px;
+display: inline-block;
+text-align:left;
+}
+iframe {
+    display:block;
+    float:right;
+}
+table {
+    border:2px solid rgb(3, 2, 2);
+    border-collapse: collapse;  
+}
+td,th{
+    border: 3px solid rgb(7, 3, 3);
+    padding: 10px;
+}
+
+@media only screen (max-width:500px)
